@@ -130,6 +130,10 @@ h2 {
 
 }
 
+.textcolorpink {
+  color: #f9e8eb;
+}
+
 .btn {
   border-radius: 60px;
 }
@@ -192,4 +196,22 @@ h2 {
 img {
   width: 50%;
   display: block;
+}
+
+/* .gallery {
+  background-color: #476667;
+  background-size:cover;
+  clip-path: inset(100px 50px);
+}
+
+.gallery div {
+  z-index: 8000;
+} */
+
+.contact {
+  background-color: #f9e8eb;
+}
+
+.reference {
+  background-color: #476667;
 }
