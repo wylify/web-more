@@ -23,7 +23,7 @@ body {
     line-height: 65px;
     text-align: center;
     display: block;
-    color: rgba(55, 124, 15, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav div.logo {
