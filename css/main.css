@@ -22,8 +22,9 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
-    display: block;
+    /*display: block;*/
     background-color: rgba(255, 255, 255, 0.5);
+    z-index: 90000;
 }
 
 .nav div.logo {
@@ -91,6 +92,16 @@ h2 {
   color: #476667;
 }
 
+.jumbohome {
+  background:linear-gradient(90deg, rgba(250, 219, 229, 1), rgba(250, 219, 229, 0.3)), url("/img/gallery/galeria-4.jpg");
+  background-size:cover;
+  clip-path: ellipse(100% 90% at 50% 0%);
+}
+
+.sectionhome {
+  height: 50em;
+}
+
 #textcat {
   font-size: 18px;
   font-weight: 500;
@@ -107,4 +118,71 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   color: #476667;
+}
+
+#textcolorlight {
+  color: #fff;
+}
+
+#textcolorred {
+  color: #476667;
+}
+
+.btn {
+  border-radius: 60px;
+}
+
+.darkbtn {
+  color: #fff;
+  background-color: #476667;
+  outline-color: #476667;
+}
+
+.darkbtn:hover {
+  color: #fff;
+  background-color: #c28283;
+  outline-color: #476667;
+}
+
+.redbtn {
+  color: #fff;
+  background-color: #c28283;
+  outline-color: #c28283;
+}
+
+.redbtn:hover {
+  color: #fff;
+  background-color: #476667;
+  outline-color: #c28283;
+}
+
+.image-stack {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 500px
+}
+
+.image-stack__item--bottom {
+  grid-column: 6 / 12;
+  padding-top: 30%;
+  grid-row: 1;
+}
+
+.image-stack__item--middle {
+  grid-column: 8 / 10;
+  padding-top: -20%;
+  grid-row: 2;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 9 / span 10;
+  padding-top: 30%;
+  z-index: 200;
+}
+
+img {
+  width: 50%;
+  display: block;
 }
