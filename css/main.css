@@ -102,34 +102,41 @@ h2 {
   height: 50em;
 }
 
-#textcat {
+.textcat {
   font-size: 18px;
   font-weight: 500;
   color: #476667;
+  text-transform: uppercase;
 }
 
-#textone {
+.textone {
   font-size: 18px;
   font-weight: 400;
   color: #476667;
 }
 
-#texttwo {
+.texttwo {
   font-size: 16px;
   font-weight: 400;
   color: #476667;
 }
 
-#textcolorlight {
+.textcolorlight {
   color: #fff;
 }
 
-#textcolorred {
-  color: #476667;
+.textcolorred {
+  color: #c28283;
+
 }
 
 .btn {
   border-radius: 60px;
+}
+
+.servicelist {
+  list-style: none;
+
 }
 
 .darkbtn {
