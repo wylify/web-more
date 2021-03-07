@@ -25,7 +25,7 @@ body {
     text-align: center;
     /*display: block;*/
     background-color: rgba(255, 255, 255, 0.5);
-    z-index: 90000;
+    z-index: 9000;
 }
 
 .nav div.logo {
@@ -104,7 +104,7 @@ h2 {
 }
 
 .aboutsection {
-  height: 40em;
+  height: 50em;
 }
 
 .textcat {
@@ -170,6 +170,18 @@ h2 {
   color: #fff;
   background-color: #476667;
   outline-color: #c28283;
+}
+
+.pinkbtn {
+  color: #476667;
+  background-color: #f9e8eb;
+  outline-color: #f9e8eb;
+}
+
+.pinkbtn:hover {
+  color: #fff;
+  background-color: #476667;
+  outline-color: #f9e8eb;
 }
 
 .image-stack {
@@ -244,24 +256,55 @@ img {
   display: inline-block;
 }
 
-.paddles {
-}
-.paddle {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 3em;
-}
-.left-paddle {
-	left: 0;
-}
-.right-paddle {
-	right: 0;
-}
 .hidden {
 	display: none;
 }
 
 .left-arrow {
   transform: rotate(180deg);
+}
+
+/* Lightbox */
+
+.lightbox {
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: fixed;
+  z-index: 10000;
+}
+
+.lightbox:target {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.lightbox img {
+  border-radius: 1em;
+  display: block;
+  margin: auto;
+  max-height: 80vh;
+  max-width: 90vh;
+}
+
+.lightbox .fechar {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  height: 1em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 1em;
+  z-index: 1001;
+}
+
+.lightbox p {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 }
