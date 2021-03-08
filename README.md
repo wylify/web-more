@@ -1,3 +1,5 @@
+![web-cover](https://i.imgur.com/G7Ylnfs.jpg)
+
 # WEB-MORE
 
 LINK: https://filipcernak.xyz/web-more/
