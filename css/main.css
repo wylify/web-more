@@ -94,7 +94,7 @@ h2 {
 }
 
 .jumbohome {
-  background:linear-gradient(90deg, rgba(250, 219, 229, 1), rgba(250, 219, 229, 0.3)), url("/img/gallery/galeria-4.jpg");
+  background:linear-gradient(90deg, rgba(250, 219, 229, 1), rgba(250, 219, 229, 0.3)), url("./img/gallery/galeria-4.jpg");
   background-size:cover;
   clip-path: ellipse(100% 90% at 50% 0%);
 }
