@@ -230,7 +230,7 @@ img {
   z-index: 8000;
 } */
 
-.contact {
+.contactsection {
   background-color: #f9e8eb;
 }
 
@@ -239,7 +239,7 @@ img {
 }
 
 .gallery-container {
-  width: 80vw;
+  width: 90vw;
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -307,4 +307,14 @@ img {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
+}
+
+.contact-logo {
+  width: 200px;
+}
+
+.contact-pattern{
+  width: 200px;
+  transform: rotate(20deg);
+  float: right;
 }
