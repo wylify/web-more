@@ -139,6 +139,10 @@ h2 {
   color: #f9e8eb;
 }
 
+.textcolordark {
+  color: #476667;
+}
+
 .btn {
   border-radius: 60px;
 }
@@ -317,4 +321,22 @@ img {
   width: 200px;
   transform: rotate(20deg);
   float: right;
+}
+
+.mobilelogo {
+  height: 10em;
+
+}
+
+.formStyle {
+  margin-bottom: 1em;
+  background-color: #f9e8eb;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #476667;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
 }

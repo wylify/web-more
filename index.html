@@ -167,42 +167,52 @@
     </section>
     <section class="container sectionhome contactsection d-flex">
       <a id="contact"></a>
-      <div class="row align-self-center border">
+      <div class="row align-self-center">
         <div class="col-xl-8">
           <p class="textcat textcolorred">kontakt</p>
           <h2 class="textcolorred">Napíšte nám</h2>
         </div>
-        <form class="col-xl-8 border">
+        <form class="col-lg-8 textcolordark">
           <div class="row form-row">
             <div class="form-group col-6">
               <label for="inputEmail4">Meno a priezvisko *</label>
-              <input type="name" class="form-control" id="inputEmail4" placeholder="">
+              <input type="name" class="form-control formStyle" id="inputEmail4" placeholder="">
             </div>
             <div class="form-group col-6">
               <label for="inputPassword4">Telefón *</label>
-              <input type="phone" class="form-control" id="inputPhone" placeholder="">
+              <input type="phone" class="form-control formStyle" id="inputPhone" placeholder="">
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
               <div class="form-group col-12">
                 <label for="inputEmail4">Email *</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="">
+                <input type="email" class="form-control formStyle" id="inputEmail4" placeholder="">
               </div>
             </div>
           </div>
           <div class="form-group">
             <div class="form-row">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="exampleFormControlTextarea1">Správa *</label>
+              <textarea class="form-control formStyle" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" class="btn redbtn p-3">Odoslať</button>
         </form>
-        <div class="col-4">
+        <div class="col-4 d-none d-lg-block">
           <img class="contact-logo" src="./img/logo.svg" alt="livi's logo">
           <svg>
             <img class="contact-pattern" src="./ELEMENTS/pattern-white.svg" alt="pattern">
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section class="container d-flex mobilelogo contactsection d-lg-none">
+      <div class="row align-self-center">
+        <div class="col-12 d-lg-none">
+          <img class="contact-logo col-6" src="./img/logo.svg" alt="livi's logo">
+          <svg>
+            <img class="contact-pattern col-6" src="./ELEMENTS/pattern-white.svg" alt="pattern">
           </svg>
         </div>
       </div>
